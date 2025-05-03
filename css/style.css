@@ -119,9 +119,11 @@ a{
     font-size: 2rem;
     color:var(--white);
     cursor: pointer;
+}
+.user-action .form-search1{
     position: relative;
 }
-.user-action .form-btn{
+.user-action .form-search1 .form-btn{
     position: absolute;
     display: flex;
     right: 0;
@@ -149,8 +151,9 @@ a{
     width: 48px;
     height: 47px;
     line-height: 47px;
+    padding: 0 15px;
 }
-.user-action .btn:focus .form-btn{
+.user-action .btn:focus + .form-btn{
     visibility:visible;
 } 
 .inner{
