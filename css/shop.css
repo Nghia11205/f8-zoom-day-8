@@ -111,13 +111,15 @@ button{
     display: flex;
     gap: 20px;
 }
+.form-search1{
+    position: relative;
+}
 .user-action .btn{
     width: 54px;
     height: 33px;
     font-size: 2rem;
     color:var(--white);
     cursor: pointer;
-    position: relative;
 }
 .user-action .form-btn{
     position: absolute;
@@ -141,14 +143,15 @@ button{
     font-weight: 400;
     line-height: 20px;
 }
-.user-action .search{
+.user-action .form-search1 .form-btn .search{
     background: var(--primary);
     color: #fff;;
     width: 48px;
     height: 47px;
     line-height: 47px;
+    padding: 0 15px;
 }
-.user-action .btn:focus .form-btn{
+.user-action .btn:focus + .form-btn{
     visibility:visible;
 } 
 .container-header{
@@ -195,7 +198,7 @@ button{
     display: flex;
     align-items: center;
     height: 45px;
-    border: 1px solid #ccc;
+    border: none;
     font-size: 1.5rem;
 }
 .form-search .input-search{
@@ -206,6 +209,7 @@ button{
     outline: none;
     font-style: italic;
     padding-left: 10px;
+    background: #eeeeee;
 }
 .form-search .btn-search{
     background: var(--primary);
