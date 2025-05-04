@@ -182,6 +182,12 @@ h1.heading{
     color: #fffc;
     font-family: var(--heading-font);
 }
+.breadcrumb a{
+    color: #fffc;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: var(--heading-font);
+}
 .breadcrumb li + li::before{
     content: "/";
     padding: 0 10px;

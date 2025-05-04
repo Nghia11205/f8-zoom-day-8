@@ -177,6 +177,13 @@ button{
     color: #fffc;
     font-family: var(--heading-font);
 }
+.header-content .content a{
+    display: flex;
+    font-size: 1.5rem;
+    color: #fffc;
+    font-family: var(--heading-font);
+    text-decoration: none;
+}
 .header-content .content li + li::before{
     content: "/";
     padding: 0 10px;
